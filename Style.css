@@ -1,0 +1,323 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Home */
+.carousel {
+    padding: 10rem 1rem ;
+    text-align: center;
+    background-image: url(Asset/img/bg1.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.logoes {
+    width: 150px;
+    border-radius: 50%;
+    padding: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    padding: 10rem 1rem ;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+/* Close Home */
+
+/* Navbar */
+.navbar {
+    background-color: #7c7c7e;
+}
+
+.navbar-brand   {
+    font-weight: 900;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.nav-link :hover{
+    color: white;
+}
+/* Close Navbar */
+
+
+
+/* Service */
+
+#Service {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 10rem 1rem ;
+    text-align: center;
+}
+
+.col-12 {
+    margin-bottom: 30px;
+}
+
+.container-s {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-s {
+    width: 325px;
+    height: 325px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card-s h3 {
+    padding: 5px;
+}
+
+.card-s p {
+    padding: 5px;
+}
+
+.card-s .btn {
+    margin: 20px;
+    padding: 10px;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #5ED6C9;
+    border-radius: 50%;
+}
+
+.card:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.jasa {
+    width: 100px;
+}
+
+/* Close Service */
+
+/* Parallax */
+
+.parallax {
+    background-image: url(Asset/img/bg3.png);
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10rem 1rem ;
+    text-align: center;
+    width: 100%;
+  }
+
+/* Close Parallax */
+
+/* Portofolio */
+#Portofolio {
+    background-color: white;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 10rem 1rem ;
+    text-align: center;
+}
+
+.col-12 {
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.container-baru {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #d9d9d9;
+    width: 325px;
+    height: 517px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.news-1 {
+    background-image: url(https://media-exp1.licdn.com/dms/image/D5612AQHdwTDxfUssMg/article-cover_image-shrink_423_752/0/1660241486534?e=1666828800&v=beta&t=rdFpIAjnABpEu2iq40N1EJ15bb5GPHXyONtOsq9APrA);
+}
+
+.news-2 {
+    background-image: url(https://media-exp1.licdn.com/dms/image/D5612AQGWQDiHFvLP0w/article-cover_image-shrink_423_752/0/1660241570751?e=1666828800&v=beta&t=XZlTEknFpofnI5qQ2Cbe1ghuEAry-N-WJzE1lHfh-FA);
+}
+
+.news-3 {background-image: url(https://media-exp1.licdn.com/dms/image/D5612AQG1WxeYsPS67Q/article-cover_image-shrink_423_752/0/1659686186081?e=1666828800&v=beta&t=afz37io-D2_KNlpa92Z3xro8Rm4WeA1kk2_jHyUA8Vc);}
+
+.card h3 {
+    padding: 0px;
+}
+
+.card p {
+    padding: 5px;
+}
+
+.card .btn {
+    margin: 20px;
+    padding: 10px;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #5ED6C9;
+    border-radius: 50%;
+}
+
+.card:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.buton {
+    margin-top: 10px;
+    color :white;
+    border-radius: 15px;
+    background-color: #545454;
+}
+
+/* Close Portofolio */
+
+
+/* artikel */
+
+/* Utama */
+.card-u {
+    background: #d9d9d9;
+    width: 625px;
+    height: 200px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 15px 15px 15px 15px;
+    text-align: start;
+}
+
+.card-u h3 {
+    padding: 5px;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.card-u p {
+    padding: 5px, 5px, 5px, 5px ;
+    font-size: small;
+}
+
+.card-u .btn {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-u:hover {
+    background: white;
+    width: 625px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    text-align: start;
+}
+
+/* Utama Close */
+
+/* Card-b */
+.card-b {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    text-align: start;
+}
+
+.card-b h3 {
+    padding: 0px;
+    font-size: large;
+}
+
+.card-b p {
+    padding: 5px;
+    font-size: small;
+}
+
+.btns   {
+    color: black;
+    text-decoration: none;
+}
+
+.btns:hover {
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+/* b Close */
+
+.card-a {
+    background: #d9d9d9;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-a h3 {
+    padding: 0px;
+    font-size: large;
+}
+
+.card-a p {
+    padding: 5px;
+    font-size: small;
+}
+
+.card-images {
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+/* Close Artikel */
+
+
+/* footer */
+
+#foot {
+    background-color: #545454;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 10rem 1rem ;
+    text-align: end;
+    color: white;
+}
+
+/* Close footer */
