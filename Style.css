@@ -1,14 +1,14 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 
 /* Home */
 .carousel {
-    padding: 10rem 1rem ;
+    padding: auto ;
     text-align: center;
     background-image: url(Asset/img/bg1.png);
     background-size: cover;
-    height: 100vh;
+    height: 100;
 }
 
 .logoes {
@@ -30,7 +30,11 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #7c7c7e;
+    background-color: white;
+}
+
+.nav-item {
+    color: #0F0B09;
 }
 
 .navbar-brand   {
@@ -42,7 +46,7 @@ body {
 }
 
 .nav-link :hover{
-    color: white;
+    color: black;
 }
 /* Close Navbar */
 
@@ -51,12 +55,13 @@ body {
 /* Service */
 
 #Service {
-    background-color: white;
+    background-color: #0f0b09;
     background-size: cover;
     width: 100%;
     height: auto;
     padding: 10rem 1rem ;
     text-align: center;
+    color: #FFE6CD;
 }
 
 .col-12 {
@@ -71,7 +76,8 @@ body {
 }
 
 .card-s {
-    width: 325px;
+
+    width: 430px;
     height: 325px;
     margin: 20px;
     border-radius: 15px;
@@ -119,7 +125,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: #FFE6CD;
     padding: 10rem 1rem ;
     text-align: center;
     width: 100%;
@@ -129,12 +135,13 @@ body {
 
 /* Portofolio */
 #Portofolio {
-    background-color: white;
+    background-color: #0f0b09;
     background-size: cover;
     width: 100%;
     height: auto;
     padding: 10rem 1rem ;
     text-align: center;
+    color: #FFE6CD;
 }
 
 .col-12 {
@@ -176,10 +183,12 @@ body {
 
 .card h3 {
     padding: 0px;
+    color: #0F0B09;
 }
 
 .card p {
     padding: 5px;
+    color: #0F0B09;
 }
 
 .card .btn {
@@ -202,9 +211,10 @@ body {
 }
 
 .buton {
-    margin-top: 10px;
+    margin: 10px;
     color :white;
     border-radius: 15px;
+    padding: 5px;
     background-color: #545454;
 }
 
@@ -222,6 +232,10 @@ body {
     margin-top: 20px;
     border-radius: 15px 15px 15px 15px;
     text-align: start;
+}
+
+.img-ar1 {
+    background-image: url(Asset/img/dd.png);
 }
 
 /* layar hp */
@@ -288,11 +302,12 @@ body {
     .card-u {
         background: #d9d9d9;
         width: 625px;
-        height: 200px;
+        height: 230px;
         margin: 10px;
         margin-top: 20px;
         border-radius: 15px 15px 15px 15px;
         text-align: start;
+        color: #0F0B09;
         }
     .card-u p {
         font-size: 16px;
@@ -327,7 +342,7 @@ body {
         font-size: small;
     }
     .btns   {
-        color: black;
+        color: #FFE6CD;
         text-decoration: none;
     }
     }
@@ -336,7 +351,7 @@ body {
 .card-u:hover {
     background: white;
     width: 625px;
-    height: 200px;
+    height: 230px;
     margin: 10px;
     border-radius: 15px 15px 15px 15px;
     text-align: start;
@@ -373,10 +388,12 @@ body {
 
 .card-images {
     background-size: cover;
-    height: 200px;
+    height: 230px;
     margin-bottom: 10px;
     border-radius: 15px 0px 0px 15px;
 }
+
+
 
 /* Close Artikel */
 
@@ -384,13 +401,129 @@ body {
 /* footer */
 
 #foot {
-    background-color: #545454;
+    background-color: #0f0b09;
     background-size: cover;
     width: 100%;
     height: auto;
     padding: 10rem 1rem ;
     text-align: end;
-    color: white;
+    color: #ffe6cd;
 }
 
 /* Close footer */
+
+
+/* Artikel */
+
+Article {
+    text-align: start;
+    background-color: #0F0B09;
+    color: #FFE6CD;
+}
+
+.ar1 {
+    padding: 5rem;
+    text-align: center;
+}
+
+.ar {
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.img-ar {
+    width: 300px;
+    padding: 30px;
+    height: auto;
+}
+
+.card-ar {
+    background-color: #0f0b09;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.news-ar1 {
+    padding: 5px;
+}
+
+/* Form Contact */
+
+.contact-form {
+    background-color: #0F0B09;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3 {
+    color: #ffff;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button {
+    padding: 15px;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+/* Close Contact Form */
+
+/* Article Close */
+
+/* About Start */
+
+#About {
+    background-color: #0F0B09;
+}
+
+.about {
+    text-align: center;
+    padding: 5rem 1rem ;
+    color: #FFE6CD;
+
+}
+
+h2 {
+    font-size: 75px;
+}
+
+
+.ab {
+    text-align: start;
+    padding: 20rem 1rem ;
+    height: 100vh;
+    width: 600px;
+    color: #FFE6CD;
+    background-color: #0F0B09;
+}
+.ab1 {
+    width: 650px;
+    height: 600x;
+    padding: 10rem 1rem;
+    align-items: flex-end;
+}
+/* About Close */

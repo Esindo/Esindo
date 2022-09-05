@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #7c7c7e;
+}
+
+.navbar-brand   {
+    font-weight: 900;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.nav-link :hover{
+    color: white;
+}
+/* Close Navbar */
+
+
+
+
+/* footer */
+
+#foot {
+    background-color: #545454;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 10rem 1rem ;
+    text-align: end;
+    color: white;
+}
+
+/* Close footer */
