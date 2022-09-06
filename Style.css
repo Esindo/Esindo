@@ -507,7 +507,7 @@ form button {
 
 }
 
-h2 {
+.text-size {
     font-size: 75px;
 }
 
@@ -526,4 +526,32 @@ h2 {
     padding: 10rem 1rem;
     align-items: flex-end;
 }
+
+#about2 {
+    background-color: #0F0B09;
+}
+
+.abt {
+    text-align: start;
+    padding: 20rem 1rem;
+    background-color: #0F0B09;
+    color: #FFE6CD;
+}
+
+#about3 {
+    background-color: #0F0B09;
+    color: #FFE6CD;
+    font-size: 20px;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.ab3 {
+    width: 200px;
+    height: 200x;
+    padding: 20px;
+    align-items: center;
+}
+
+
 /* About Close */
