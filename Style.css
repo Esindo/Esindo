@@ -30,15 +30,16 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: white;
+    background-color: #1D1D1F;
 }
 
 .nav-item {
-    color: #0F0B09;
+    color: white;
 }
 
 .navbar-brand   {
     font-weight: 900;
+    color: white;
 }
 
 .nav-link.active {
@@ -46,7 +47,7 @@ body {
 }
 
 .nav-link :hover{
-    color: black;
+    color: white;
 }
 /* Close Navbar */
 
@@ -55,13 +56,13 @@ body {
 /* Service */
 
 #Service {
-    background-color: #0f0b09;
+    background-color: white;
     background-size: cover;
     width: 100%;
     height: auto;
     padding: 10rem 1rem ;
     text-align: center;
-    color: #FFE6CD;
+    color: black;
 }
 
 .col-12 {
@@ -135,13 +136,13 @@ body {
 
 /* Portofolio */
 #Portofolio {
-    background-color: #0f0b09;
+    background-color: white;
     background-size: cover;
     width: 100%;
     height: auto;
     padding: 10rem 1rem ;
     text-align: center;
-    color: #FFE6CD;
+    color: black;
 }
 
 .col-12 {
@@ -291,6 +292,12 @@ body {
         color: black;
         text-decoration: none;
     }
+    .card-images {
+        background-size: cover;
+        height: 200px;
+        margin-bottom: 10px;
+        border-radius: 15px 0px 0px 15px;
+    }
     }
 
 /* layar laptop */
@@ -345,6 +352,12 @@ body {
         color: #FFE6CD;
         text-decoration: none;
     }
+    .card-images {
+        background-size: cover;
+        height: 230px;
+        margin-bottom: 10px;
+        border-radius: 15px 0px 0px 15px;
+    }
     }
 
 
@@ -386,12 +399,7 @@ body {
     font-size: small;
 }
 
-.card-images {
-    background-size: cover;
-    height: 230px;
-    margin-bottom: 10px;
-    border-radius: 15px 0px 0px 15px;
-}
+
 
 
 
@@ -417,7 +425,7 @@ body {
 
 Article {
     text-align: start;
-    background-color: #0F0B09;
+    background-color: white;
     color: #FFE6CD;
 }
 
@@ -497,13 +505,13 @@ form button {
 /* About Start */
 
 #About {
-    background-color: #0F0B09;
+    background-color: white;
 }
 
 .about {
     text-align: center;
     padding: 5rem 1rem ;
-    color: #FFE6CD;
+    color: black;
 
 }
 
@@ -517,8 +525,8 @@ form button {
     padding: 20rem 1rem ;
     height: 100vh;
     width: 600px;
-    color: #FFE6CD;
-    background-color: #0F0B09;
+    color: black;
+
 }
 .ab1 {
     width: 650px;
@@ -528,19 +536,18 @@ form button {
 }
 
 #about2 {
-    background-color: #0F0B09;
+    background-color: white;
 }
 
 .abt {
     text-align: start;
     padding: 20rem 1rem;
-    background-color: #0F0B09;
-    color: #FFE6CD;
+    color: black;
 }
 
 #about3 {
-    background-color: #0F0B09;
-    color: #FFE6CD;
+    background-color: white;
+    color: black;
     font-size: 20px;
     text-align: center;
     padding: 5rem 1rem;
