@@ -413,13 +413,17 @@ body {
 /* Close footer */
 
 
-/* news1 */
+/* news */
 /* layar laptop */
 @media screen and (min-width: 600px) {
         Article {
             text-align: start;
             background-color: white;
             color: #FFE6CD;
+        }
+
+        .justify {
+            text-align: justify;
         }
 
         .ar1 {
@@ -580,7 +584,7 @@ body {
         border: 0;
         margin: 10px 0;
         outline: none;
-        background: #f5f5f5;
+        background: white;
         font-size: 16px;
     }
 
@@ -598,7 +602,11 @@ body {
     }
 }
 /* Close Layar HP */
-
+.af {
+    list-style-type: disc;
+    list-style-position: outside;
+    text-align: start;
+}
 /* Close Contact Form */
 
 /* news1 Close */
