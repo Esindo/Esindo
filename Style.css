@@ -30,7 +30,18 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #1D1D1F;
+    background: none;
+    z-index: 1;
+    width: 90%;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-item {
@@ -53,6 +64,30 @@ body {
 
 .nav-link :hover{
     color: white;
+}
+
+.navbar-toggler span {
+    background-color: white;
+}
+.navbar-toggler {
+    background-color: white;
+}
+
+.scroll {
+    background: black;
+    top: -100px;
+    border-radius: 20px;
+    width: 90%;
+    height: auto;
+    animation: fadedown .2s ease 1s forwards;
+}
+@keyframes fadedown {
+    0%{
+        top: -100px;
+    }
+    100% {
+        top: 20px;
+    }
 }
 /* Close Navbar */
 
@@ -626,7 +661,7 @@ body {
 /* About Start */
 
 #About {
-    background-color: white;
+    background-color: black;
 }
 
 /* layar laptop */
