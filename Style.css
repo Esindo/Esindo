@@ -30,9 +30,10 @@ body {
 
 /* Navbar */
 .navbar {
-    background: none;
-    z-index: 1;
-    width: 90%;
+    background: black;
+    height: auto;
+    z-index:1;
+    width: 100%;
     padding: 10px 50px;
     position: fixed;
     top: 0;
@@ -66,12 +67,57 @@ body {
     color: white;
 }
 
-.navbar-toggler span {
-    background-color: white;
-}
 .navbar-toggler {
     background-color: white;
 }
+
+/* Navbar layar hp */
+@media screen and (max-width: 601px) {
+    /* Navbar */
+.navbar {
+    background: transparent;
+    z-index: 1;
+    width: 100%;
+    padding: 20px 50px;
+    /* position: fixe; */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+}
+
+.navbar-brand   {
+    font-weight: auto;
+    color: white;
+    display: flex;
+    font-size: smaller;
+    align-items: center;
+}
+.navbar-brand img {
+    width: 30px;
+    height: 30px;
+}
+.navbar-toggler{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 20px;
+}
+.navbar-toggler span{
+    width: 10px;
+    height: 10px;
+    display: none;
+}
+}
+
 
 .scroll {
     background: black;
