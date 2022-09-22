@@ -1,5 +1,6 @@
 body {
     font-family: 'Space Mono', monospace;
+    font-family: 'Philosopher', sans-serif;
 }
 
 /* Home */
@@ -318,7 +319,7 @@ body {
 }
 
 .img-ar2 {
-    background-image: url(Asset/img/dd.png);
+    background-image: url(https://store.sirclo.com/blog/wp-content/uploads/2022/05/pexels-lukas-590022-1024x678.jpg);
 }
 
 /* layar hp */
